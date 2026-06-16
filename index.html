@@ -1,18 +1,16 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <title>Chat App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 <body>
-   <div id="loginPage">
+    <div id="loginPage">
         <h1>K87057346888957</h1>
         <button id="loginBtn">Login dengan Google</button>
+    </div>
+    <div id="chatPage" style="display: none;">
+        <h2>Ruang Chat</h2>
+        <div id="messages"></div>
+        <input type="text" id="messageInput">
+        <button id="sendBtn">Kirim</button>
     </div>
 
     <script type="module" src="firebase.js"></script>
     <script type="module" src="auth.js"></script>
     <script type="module" src="app.js"></script>
 </body>
-</html>
