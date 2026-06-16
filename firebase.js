@@ -1,8 +1,8 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-import { getDatabase } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
+import { getDatabase } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
+  apiKey: "AIzaSyB_i-VtP6GzIKAJ3sQpUiMcHWUZ8lAg6RA",
   authDomain: "chat-k87057346888957.firebaseapp.com",
   databaseURL: "https://chat-k87057346888957-default-rtdb.firebaseio.com",
   projectId: "chat-k87057346888957",
@@ -13,4 +13,4 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 export const db = getDatabase(app);
-export { app }; // Wajib diekspor untuk auth.js
+export { app }; // <--- TAMBAHKAN BARIS INI! Ini kuncinya.
