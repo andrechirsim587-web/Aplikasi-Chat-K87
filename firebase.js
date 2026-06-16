@@ -2,12 +2,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase
 import { getDatabase } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB_i-VtP6GzIKAJ3sQpUiMcHWUZ8lAg6RA",
+  apiKey: "YOUR_API_KEY",
   authDomain: "chat-k87057346888957.firebaseapp.com",
+  databaseURL: "https://chat-k87057346888957-default-rtdb.firebaseio.com", // Pastikan baris ini ada
   projectId: "chat-k87057346888957",
-  storageBucket: "chat-k87057346888957.firebasestorage.app",
+  storageBucket: "chat-k87057346888957.appspot.com",
   messagingSenderId: "883206886895",
-  appId: "1:883206886895:web:924861d3710af7e29f121a"
+  appId: "1:883206886895:web:..."
 };
 
 const app = initializeApp(firebaseConfig);
